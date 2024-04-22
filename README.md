@@ -1,4 +1,4 @@
-# CLI Skeleton
+# CLI Tool Skeleton
 
 #### A bare bones starting point to create a CLI tool in Javascript.
 
