@@ -2,13 +2,9 @@
 
 #### A bare bones starting point to create a CLI tool in Javascript.
 
----
-
 ## Installation
 
 `npm install`
-
----
 
 ## Local Usage
 
@@ -27,15 +23,13 @@ Rename the **tool** directory to your tool's name.
 
 Now it should be ready to use with `<tool_name> <args>` like `tool --start`
 
----
-
 ## Commands
 
-**_Filter logs_**
+**_Filter logs_** <br />
 `DEBUG=commands:* <tool_name> <args>` to only show logs from `commands/start`
 
-**_Include multiple logs_**
+**_Include multiple logs_** <br />
 `DEBUG=commands:*,bin <tool_name> <args>` to include logs from `commands/start` and `bin/index`
 
-**_Exclude logs_**
+**_Exclude logs_** <br />
 `DEBUG=*,-bin <tool_name> <args>` to exclude the logs from `bin/index`
